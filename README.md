@@ -27,6 +27,30 @@ $ npm install prompts-y
 > If your project is not already using prompts you may need to install it first
 > if your package manager does not automatically install peer dependencies.
 
+## Usage
+
+```ts
+import promptsY from 'prompts-y'
+
+const response = await promptsY({
+  type: 'select',
+  name: 'value',
+  message: 'Pick a color',
+  choices: [
+    {
+      title: 'Red',
+      description: 'This option has a description',
+      value: '#ff0000',
+    }, // 0
+    { title: 'Green', value: '#00ff00', disabled: true }, // 1
+    { title: 'Blue', value: '#0000ff' }, // 2
+  ],
+  initial: 1,
+})
+
+// => response => '#00ff00'
+```
+
 ## Development and Testing
 
 ### Quickstart
