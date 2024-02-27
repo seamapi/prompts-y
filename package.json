@@ -1,7 +1,7 @@
 {
   "name": "prompts-y",
   "version": "0.0.1",
-  "description": "Wrapper around prompts that automatically says yes.",
+  "description": "Drop-in replacement for Prompts that automatically selects and confirms the default option for all prompts.",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",

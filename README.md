@@ -3,13 +3,23 @@
 [![npm](https://img.shields.io/npm/v/prompts-y.svg)](https://www.npmjs.com/package/prompts-y)
 [![GitHub Actions](https://github.com/seamapi/prompts-y/actions/workflows/check.yml/badge.svg)](https://github.com/seamapi/prompts-y/actions/workflows/check.yml)
 
-Wrapper around prompts that automatically says yes.
+<h1 align="center">❯ Prompts -y</h1>
 
 ## Description
 
-TODO
+Drop-in replacement for [Prompts] that automatically selects and confirms the default option for all prompts.
+If there is no default option, prompts-y will throw an error.
+Ideal for non-interactive mode.
+
+[Prompts]: https://github.com/terkelg/prompts
 
 ## Installation
+
+> [!IMPORTANT]
+> prompts-y needs prompts as a peer dependency.
+> Modern versions of npm automatically install peer dependencies.
+> If your project is not already using prompts you may need to install it first
+> if your package manager does not automatically install peer dependencies.
 
 Add this as a dependency to your project using [npm] with
 
