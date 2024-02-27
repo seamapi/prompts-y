@@ -1,6 +1,6 @@
 {
   "name": "prompts-y",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Drop-in replacement for Prompts that automatically selects and confirms the default option for all prompts.",
   "type": "module",
   "main": "index.js",
