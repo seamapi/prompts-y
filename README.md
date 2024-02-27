@@ -1,9 +1,7 @@
-# Prompts -y
+# ❯ Prompts -y
 
 [![npm](https://img.shields.io/npm/v/prompts-y.svg)](https://www.npmjs.com/package/prompts-y)
 [![GitHub Actions](https://github.com/seamapi/prompts-y/actions/workflows/check.yml/badge.svg)](https://github.com/seamapi/prompts-y/actions/workflows/check.yml)
-
-<h1 align="center">❯ Prompts -y</h1>
 
 ## Description
 
