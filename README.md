@@ -13,12 +13,6 @@ Ideal for non-interactive mode.
 
 ## Installation
 
-> [!IMPORTANT]
-> prompts-y needs prompts as a peer dependency.
-> Modern versions of npm automatically install peer dependencies.
-> If your project is not already using prompts you may need to install it first
-> if your package manager does not automatically install peer dependencies.
-
 Add this as a dependency to your project using [npm] with
 
 ```
@@ -26,6 +20,12 @@ $ npm install prompts-y
 ```
 
 [npm]: https://www.npmjs.com/
+
+> [!IMPORTANT]
+> prompts-y needs prompts as a peer dependency.
+> Modern versions of npm automatically install peer dependencies.
+> If your project is not already using prompts you may need to install it first
+> if your package manager does not automatically install peer dependencies.
 
 ## Development and Testing
 
